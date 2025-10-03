@@ -1,6 +1,4 @@
-Perfecto 👌, aquí tienes el **README.md completo ya editado** con el apartado **"🛠️ Comandos en caso de error"** incluido al final:
 
-````markdown
 # 📘 Reforzamiento TypeScript + React - Grupo 9
 
 ## 👥 Integrantes
