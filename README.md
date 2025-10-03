@@ -34,6 +34,20 @@ Se desarrollaron 7 ejercicios prácticos que abarcan conceptos como:
     Soy Maikoll Fabian Ballesteros Pinilla, tengo 22 años, estudio Ingeniería de Software y estoy en el semestre 8.
     
 - Arreglos
+Objetivo: Manejar arrays y bucles for.
+
+    Qué hace el código:
+
+        Crea un arreglo con calificaciones numéricas.
+
+        Usa un bucle para sumarlas.
+
+        Calcula el promedio y lo devuelve junto con la lista.
+
+    Ejemplo de salida:
+
+        Calificaciones: 4.5, 3.8, 5.0, 4.2, 3.9 | Promedio: 4.28
+        
 - Funciones
 - Desestructuración de objetos
 - Desestructuración de arreglos
