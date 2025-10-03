@@ -1,135 +1,119 @@
-# Reforzamiento TypeScript + React - Grupo 9
+# 📘 Reforzamiento TypeScript + React - Grupo 9
 
 ## 👥 Integrantes
-- Maikoll Fabian Ballesteros Pinilla  
-- Breider Yesid Lopez Valero  
+
+-   **Maikoll Fabian Ballesteros Pinilla**\
+-   **Breider Yesid Lopez Valero**
+
+------------------------------------------------------------------------
 
 ## 📌 Descripción
-Este proyecto contiene la solución a un taller de **TypeScript** implementado en un entorno **React + Vite**.  
-Se desarrollaron 7 ejercicios prácticos que abarcan conceptos como:
-- Variables y alcance
-    Objetivo: Mostrar la diferencia entre const y let en TypeScript.
-    El código declara una variable const para el nombre del estudiante (no puede cambiar).
-    Declara una variable let para la edad (se puede actualizar).
-    Modifica la edad y devuelve un mensaje con nombre y edad.
-    Ejemplo de salida:
-    Nombre: Juan Pérez, Edad: 21
-    
-- Cadenas de plantilla
-    Objetivo: Practicar template strings.
 
-    El código declara variables: nombre, carrera y semestre.
-    Usa un template string para crear un mensaje combinando esas variables.
+Este proyecto corresponde al reforzamiento de **TypeScript** en un
+entorno **React + Vite**, mediante la resolución de **7 ejercicios
+prácticos** que abarcan conceptos fundamentales como variables, cadenas
+de plantilla, objetos literales, arreglos, funciones y
+desestructuración.
 
-    Ejemplo de salida:
-    Hola, mi nombre es Breider Yesid Lopez Valero, estudio Ingeniería de Sistemas y voy en el semestre 7.
+Todos los ejercicios se encuentran en la carpeta `src/ejercicios/` y se
+muestran en pantalla a través del componente **`EjerciciosList.tsx`**.
 
-- Literales de objetos
-    Objetivo: Trabajar con objetos literales y métodos.
+------------------------------------------------------------------------
 
-    El código define un objeto estudiante con propiedades: nombre, edad, carrera y semestre.
-    Agrega un método descripcion() que devuelve un texto con esos datos.
+## 📝 Ejercicios Implementados
 
-    Ejemplo de salida:
-    Soy Maikoll Fabian Ballesteros Pinilla, tengo 22 años, estudio Ingeniería de Software y estoy en el semestre 8.
-    
-- Arreglos
-Objetivo: Manejar arrays y bucles for.
+1.  **Variables y alcance**
+    -   Diferencia entre `const` y `let`.\
 
-    Qué hace el código:
+    -   Ejemplo:
 
-        Crea un arreglo con calificaciones numéricas.
+            Nombre: Juan Pérez, Edad: 21
+2.  **Cadenas de plantilla (Template Strings)**
+    -   Uso de interpolación de variables.\
 
-        Usa un bucle para sumarlas.
+    -   Ejemplo:
 
-        Calcula el promedio y lo devuelve junto con la lista.
+            Hola, mi nombre es Breider Yesid Lopez Valero, estudio Ingeniería de Sistemas y voy en el semestre 7.
+3.  **Objetos literales**
+    -   Definición de propiedades y métodos.\
 
-    Ejemplo de salida:
+    -   Ejemplo:
 
-        Calificaciones: 4.5, 3.8, 5.0, 4.2, 3.9 | Promedio: 4.28
+            Soy Maikoll Fabian Ballesteros Pinilla, tengo 22 años, estudio Ingeniería de Software y estoy en el semestre 8.
+4.  **Arreglos y bucles**
+    -   Suma de calificaciones y cálculo de promedio.\
 
-- Funciones
-    Objetivo: Definir y reutilizar una función.
+    -   Ejemplo:
 
-    Qué hace el código:
+            Calificaciones: 4.5, 3.8, 5.0, 4.2, 3.9 | Promedio: 4.28
+5.  **Funciones**
+    -   Definición y reutilización de funciones.\
 
-        Declara una función calcularPromedio que recibe un array de números y devuelve el promedio.
+    -   Ejemplo:
 
-        Llama esa función con un arreglo de calificaciones.
+            Promedio de [4.0, 3.5, 4.8, 5.0, 3.9] es: 4.24
+6.  **Desestructuración de objetos**
+    -   Extracción de propiedades específicas.\
 
-    Ejemplo de salida:
+    -   Ejemplo:
 
-        Promedio de [4.0, 3.5, 4.8, 5.0, 3.9] es: 4.24
+            Nombre: Laura Martínez, Carrera: Ingeniería de Sistemas
+7.  **Desestructuración de arreglos**
+    -   Obtención de valores individuales.\
 
-- Desestructuración de objetos
+    -   Ejemplo:
 
-    Objetivo: Usar desestructuración de objetos.
+            Primera calificación: 4.5, Segunda calificación: 3.8
 
-    Qué hace el código:
-
-        Declara un objeto estudiante con varias propiedades.
-
-        Extrae solo nombre y carrera usando desestructuración.
-
-    Ejemplo de salida:
-
-        Nombre: Laura Martínez, Carrera: Ingeniería de Sistemas
-
-- Desestructuración de arreglos
-    Objetivo: Usar desestructuración de arrays.
-
-    Qué hace el código:
-
-        Declara un arreglo de calificaciones.
-
-        Obtiene el primer y segundo valor con desestructuración.
-
-    Ejemplo de salida:
-
-        Primera calificación: 4.5, Segunda calificación: 3.8
-
-Todos los ejercicios se encuentran dentro de la carpeta `src/ejercicios/` y son mostrados en pantalla mediante un componente React llamado `EjerciciosList.tsx`.
-
----
+------------------------------------------------------------------------
 
 ## 📂 Estructura del Proyecto
 
-src/
-│── componentes/
-│ └── EjerciciosList.tsx
-│
-│── ejercicios/
-│ ├── 01-variables.ts
-│ ├── 02-template-string.ts
-│ ├── 03-object-literal.ts
-│ ├── 04-arrays.ts
-│ ├── 05-functions.ts
-│ ├── 06-obj-destructuring.ts
-│ └── 07-array-destructuring.ts
-│
-│── App.tsx
-│── main.tsx
-│── index.css
+    src/
+    │── componentes/
+    │   └── EjerciciosList.tsx
+    │
+    │── ejercicios/
+    │   ├── 01-variables.ts
+    │   ├── 02-template-string.ts
+    │   ├── 03-object-literal.ts
+    │   ├── 04-arrays.ts
+    │   ├── 05-functions.ts
+    │   ├── 06-obj-destructuring.ts
+    │   └── 07-array-destructuring.ts
+    │
+    │── App.tsx
+    │── main.tsx
+    │── index.css
 
-
----
+------------------------------------------------------------------------
 
 ## 🚀 Instalación y Ejecución
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/usuario/reforzamiento-typescript-grupo9.git
 
-2. Entrar a la carpeta del proyecto:
+1.  **Clonar el repositorio**
 
+    ``` bash
+    git clone https://github.com/usuario/reforzamiento-typescript-grupo9.git
+    ```
+
+2.  **Ingresar al directorio del proyecto**
+
+    ``` bash
     cd reforzamiento-typescript-grupo9
+    ```
 
-3. Instalar dependencias:
+3.  **Instalar dependencias**
 
-    npm install react react-dom
-    npm install -D @types/react @types/react-dom
+    ``` bash
+    npm install
+    ```
 
-4. Ejecutar en modo desarrollo:
+4.  **Ejecutar en modo desarrollo**
 
+    ``` bash
     npm run dev
+    ```
 
-5. Abrir en el navegador la URL que aparezca en la terminal (ejemplo: http://localhost:5173).
+5.  **Abrir en el navegador**\
+    Copia y pega en tu navegador la URL que aparezca en la terminal (por
+    defecto: `http://localhost:5173`).
