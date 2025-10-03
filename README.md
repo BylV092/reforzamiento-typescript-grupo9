@@ -16,6 +16,14 @@ Se desarrollaron 7 ejercicios prácticos que abarcan conceptos como:
     Nombre: Juan Pérez, Edad: 21
     
 - Cadenas de plantilla
+    Objetivo: Practicar template strings.
+
+    El código declara variables: nombre, carrera y semestre.
+    Usa un template string para crear un mensaje combinando esas variables.
+
+    Ejemplo de salida:
+    Hola, mi nombre es Breider Yesid Lopez Valero, estudio Ingeniería de Sistemas y voy en el semestre 7.
+
 - Literales de objetos
 - Arreglos
 - Funciones
