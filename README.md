@@ -8,9 +8,46 @@
 Este proyecto contiene la solución a un taller de **TypeScript** implementado en un entorno **React + Vite**.  
 Se desarrollaron 7 ejercicios prácticos que abarcan conceptos como:
 - Variables y alcance
+    Objetivo: Mostrar la diferencia entre const y let en TypeScript.
+    El código declara una variable const para el nombre del estudiante (no puede cambiar).
+    Declara una variable let para la edad (se puede actualizar).
+    Modifica la edad y devuelve un mensaje con nombre y edad.
+    Ejemplo de salida:
+    Nombre: Juan Pérez, Edad: 21
+    
 - Cadenas de plantilla
+    Objetivo: Practicar template strings.
+
+    El código declara variables: nombre, carrera y semestre.
+    Usa un template string para crear un mensaje combinando esas variables.
+
+    Ejemplo de salida:
+    Hola, mi nombre es Breider Yesid Lopez Valero, estudio Ingeniería de Sistemas y voy en el semestre 7.
+
 - Literales de objetos
+    Objetivo: Trabajar con objetos literales y métodos.
+
+    El código define un objeto estudiante con propiedades: nombre, edad, carrera y semestre.
+    Agrega un método descripcion() que devuelve un texto con esos datos.
+
+    Ejemplo de salida:
+    Soy Maikoll Fabian Ballesteros Pinilla, tengo 22 años, estudio Ingeniería de Software y estoy en el semestre 8.
+    
 - Arreglos
+Objetivo: Manejar arrays y bucles for.
+
+    Qué hace el código:
+
+        Crea un arreglo con calificaciones numéricas.
+
+        Usa un bucle para sumarlas.
+
+        Calcula el promedio y lo devuelve junto con la lista.
+
+    Ejemplo de salida:
+
+        Calificaciones: 4.5, 3.8, 5.0, 4.2, 3.9 | Promedio: 4.28
+        
 - Funciones
 - Desestructuración de objetos
 - Desestructuración de arreglos
