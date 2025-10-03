@@ -218,25 +218,27 @@ renderizados en la interfaz a través del componente
 
 1.  **Clonar el repositorio**
 
+    ```bash
     git clone https://github.com/usuario/reforzamiento-typescript-grupo9.git
-  
+    ```
 
 2.  **Ingresar al directorio del proyecto**
 
- 
+    ```bash
     cd reforzamiento-typescript-grupo9
-  
+    ```
 
 3.  **Instalar dependencias**
 
+    ```bash
     npm install
-    
+    ```
 
 4.  **Ejecutar en modo desarrollo**
 
-
+    ```bash
     npm run dev
-
+    ```
 
 5.  **Abrir en el navegador**\
     Copia y pega en tu navegador la URL que aparezca en la terminal (por
@@ -248,14 +250,17 @@ renderizados en la interfaz a través del componente
 
 En caso de errores relacionados con dependencias o tipados, puedes ejecutar los siguientes comandos:
 
-
+```bash
 npm install --save-dev vite
+````
 
-
+```bash
 npm install react react-dom
+```
 
-
+```bash
 npm install -D @types/react @types/react-dom
+```
 
-
+```
 
