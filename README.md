@@ -10,6 +10,14 @@ Se desarrollaron 7 ejercicios prácticos que abarcan conceptos como:
 - Variables y alcance
 - Cadenas de plantilla
 - Literales de objetos
+    Objetivo: Trabajar con objetos literales y métodos.
+
+    El código define un objeto estudiante con propiedades: nombre, edad, carrera y semestre.
+    Agrega un método descripcion() que devuelve un texto con esos datos.
+
+    Ejemplo de salida:
+    Soy Maikoll Fabian Ballesteros Pinilla, tengo 22 años, estudio Ingeniería de Software y estoy en el semestre 8.
+    
 - Arreglos
 - Funciones
 - Desestructuración de objetos
