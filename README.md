@@ -76,6 +76,17 @@ Objetivo: Manejar arrays y bucles for.
         Nombre: Laura Martínez, Carrera: Ingeniería de Sistemas
 
 - Desestructuración de arreglos
+    Objetivo: Usar desestructuración de arrays.
+
+    Qué hace el código:
+
+        Declara un arreglo de calificaciones.
+
+        Obtiene el primer y segundo valor con desestructuración.
+
+    Ejemplo de salida:
+
+        Primera calificación: 4.5, Segunda calificación: 3.8
 
 Todos los ejercicios se encuentran dentro de la carpeta `src/ejercicios/` y son mostrados en pantalla mediante un componente React llamado `EjerciciosList.tsx`.
 
