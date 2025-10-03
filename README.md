@@ -1,3 +1,6 @@
+Perfecto 👌, aquí tienes el **README.md completo ya editado** con el apartado **"🛠️ Comandos en caso de error"** incluido al final:
+
+````markdown
 # 📘 Reforzamiento TypeScript + React - Grupo 9
 
 ## 👥 Integrantes
@@ -42,8 +45,8 @@ renderizados en la interfaz a través del componente
 
 -   **Conceptos reforzados**:
 
-    -   Inmutabilidad de `const`.\
-    -   Mutabilidad de `let`.\
+    -   Inmutabilidad de `const`.\  
+    -   Mutabilidad de `let`.\  
     -   Interpolación de valores en cadenas.\
 
 -   **Ejemplo de salida**:
@@ -65,8 +68,8 @@ renderizados en la interfaz a través del componente
 
 -   **Conceptos reforzados**:
 
-    -   Uso de backticks (`` ` ``).\
-    -   Interpolación con `${}`.\
+    -   Uso de backticks (`` ` ``).\  
+    -   Interpolación con `${}`.\  
     -   Plantillas multilinea.\
 
 -   **Ejemplo de salida**:
@@ -88,8 +91,8 @@ renderizados en la interfaz a través del componente
 
 -   **Conceptos reforzados**:
 
-    -   Sintaxis de objetos literales en TypeScript.\
-    -   Métodos dentro de objetos.\
+    -   Sintaxis de objetos literales en TypeScript.\  
+    -   Métodos dentro de objetos.\  
     -   Uso de `this` para acceder a propiedades internas.\
 
 -   **Ejemplo de salida**:
@@ -111,8 +114,8 @@ renderizados en la interfaz a través del componente
 
 -   **Conceptos reforzados**:
 
-    -   Declaración de arreglos en TypeScript.\
-    -   Recorridos con bucles (`for`).\
+    -   Declaración de arreglos en TypeScript.\  
+    -   Recorridos con bucles (`for`).\  
     -   Operaciones matemáticas con colecciones.\
 
 -   **Ejemplo de salida**:
@@ -134,8 +137,8 @@ renderizados en la interfaz a través del componente
 
 -   **Conceptos reforzados**:
 
-    -   Definición de funciones en TypeScript.\
-    -   Tipado de parámetros y valores de retorno.\
+    -   Definición de funciones en TypeScript.\  
+    -   Tipado de parámetros y valores de retorno.\  
     -   Reutilización de lógica en distintos contextos.\
 
 -   **Ejemplo de salida**:
@@ -157,8 +160,8 @@ renderizados en la interfaz a través del componente
 
 -   **Conceptos reforzados**:
 
-    -   Sintaxis de desestructuración en TypeScript.\
-    -   Selección de propiedades específicas.\
+    -   Sintaxis de desestructuración en TypeScript.\  
+    -   Selección de propiedades específicas.\  
     -   Simplificación de código.\
 
 -   **Ejemplo de salida**:
@@ -180,8 +183,8 @@ renderizados en la interfaz a través del componente
 
 -   **Conceptos reforzados**:
 
-    -   Desestructuración de arrays.\
-    -   Extracción directa de posiciones específicas.\
+    -   Desestructuración de arrays.\  
+    -   Extracción directa de posiciones específicas.\  
     -   Escritura más limpia y legible.\
 
 -   **Ejemplo de salida**:
@@ -215,28 +218,44 @@ renderizados en la interfaz a través del componente
 
 1.  **Clonar el repositorio**
 
-    ``` bash
     git clone https://github.com/usuario/reforzamiento-typescript-grupo9.git
-    ```
+  
 
 2.  **Ingresar al directorio del proyecto**
 
-    ``` bash
+ 
     cd reforzamiento-typescript-grupo9
-    ```
+  
 
 3.  **Instalar dependencias**
 
-    ``` bash
     npm install
-    ```
+    
 
 4.  **Ejecutar en modo desarrollo**
 
-    ``` bash
+
     npm run dev
-    ```
+
 
 5.  **Abrir en el navegador**\
     Copia y pega en tu navegador la URL que aparezca en la terminal (por
     defecto: `http://localhost:5173`).
+
+------------------------------------------------------------------------
+
+## 🛠️ Comandos en caso de error
+
+En caso de errores relacionados con dependencias o tipados, puedes ejecutar los siguientes comandos:
+
+
+npm install --save-dev vite
+
+
+npm install react react-dom
+
+
+npm install -D @types/react @types/react-dom
+
+
+
