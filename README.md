@@ -8,6 +8,13 @@
 Este proyecto contiene la solución a un taller de **TypeScript** implementado en un entorno **React + Vite**.  
 Se desarrollaron 7 ejercicios prácticos que abarcan conceptos como:
 - Variables y alcance
+    Objetivo: Mostrar la diferencia entre const y let en TypeScript.
+    El código declara una variable const para el nombre del estudiante (no puede cambiar).
+    Declara una variable let para la edad (se puede actualizar).
+    Modifica la edad y devuelve un mensaje con nombre y edad.
+    Ejemplo de salida:
+    Nombre: Juan Pérez, Edad: 21
+    
 - Cadenas de plantilla
 - Literales de objetos
 - Arreglos
