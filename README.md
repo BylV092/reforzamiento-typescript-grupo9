@@ -60,8 +60,21 @@ Objetivo: Manejar arrays y bucles for.
     Ejemplo de salida:
 
         Promedio de [4.0, 3.5, 4.8, 5.0, 3.9] es: 4.24
-        
+
 - Desestructuración de objetos
+
+    Objetivo: Usar desestructuración de objetos.
+
+    Qué hace el código:
+
+        Declara un objeto estudiante con varias propiedades.
+
+        Extrae solo nombre y carrera usando desestructuración.
+
+    Ejemplo de salida:
+
+        Nombre: Laura Martínez, Carrera: Ingeniería de Sistemas
+
 - Desestructuración de arreglos
 
 Todos los ejercicios se encuentran dentro de la carpeta `src/ejercicios/` y son mostrados en pantalla mediante un componente React llamado `EjerciciosList.tsx`.
