@@ -47,8 +47,20 @@ Objetivo: Manejar arrays y bucles for.
     Ejemplo de salida:
 
         Calificaciones: 4.5, 3.8, 5.0, 4.2, 3.9 | Promedio: 4.28
-        
+
 - Funciones
+    Objetivo: Definir y reutilizar una función.
+
+    Qué hace el código:
+
+        Declara una función calcularPromedio que recibe un array de números y devuelve el promedio.
+
+        Llama esa función con un arreglo de calificaciones.
+
+    Ejemplo de salida:
+
+        Promedio de [4.0, 3.5, 4.8, 5.0, 3.9] es: 4.24
+        
 - Desestructuración de objetos
 - Desestructuración de arreglos
 
